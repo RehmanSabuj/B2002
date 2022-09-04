@@ -1,6 +1,4 @@
-package variableScope;
-
-import javaPractice.ConstructorObjects;
+package variable_scope;
 
 public class Courses {
     public static void main(String[] args) {

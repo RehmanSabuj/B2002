@@ -1,4 +1,4 @@
-package variableScope;
+package variable_scope;
 
 public class Students {
 
