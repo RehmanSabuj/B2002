@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false" >
+    <!--parallel="false"-->
+
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserVersion" value="81.0"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="url" value="http://automationpractice.com"/>
+
+    <test name = "Ecommerce Home">
+
+        <classes>
+            <class name="page_objects_test.LandingPageTest"/>
+            <class name="page_objects_test.StoreFindTest"/>
+        </classes>
+
+        <!--Hello-->
+    </test>
+
+</suite>
